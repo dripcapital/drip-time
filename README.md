@@ -30,7 +30,7 @@ e.archived.reload.last.action #=> 'destroy'
 * Optimizations thinking Ruby/Rails and performance in point of view.   
 
 ### Submission
-* Fork this project to integrate. 
+* Clone this project and submit your solution as a **zip** file.
 * Mention additional `rails` / `rake` commands which are necessary to support your changes.
 * Example snippets like above should work.
 * If you wish, you can also add submission notes below discussing your approach and challenges faced.
