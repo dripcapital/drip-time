@@ -25,6 +25,7 @@ e.archived.reload.last.action #=> 'destroy'
 * By _full snaphot_, we mean that object should contain all the attributes of the object at that point of time. 
 * `Exporter` and `Insurance` attributes need to be tracked. Name of attributes to be tracked is mentioned in models. `Analytic` does not need to be tracked.
 * API should be flexible, we should be able to control what attributes we want to track.
+* Bonus points, if your system allows data to be queried (via SQL). For example, get the data from archived exporters before 1st Jan 2018 when name changed from 'Ankur' to 'FooBar' and some other attributed changed from x to y.
 
 ### Good to have
 * If new columns are added, existing columns are removed, think and implement/suggest how your solution will adopt.
